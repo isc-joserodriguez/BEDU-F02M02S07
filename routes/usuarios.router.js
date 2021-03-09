@@ -6,7 +6,7 @@ const {
     eliminarUsuario,
     iniciarSesion
 } = require('../controllers/usuarios.controller')
-const auth = require('./auth');
+const auth = require('../middleware/auth');
 
 router.get('/', auth.requerido, obtenerUsuarios)
 router.get('/:id', auth.requerido, obtenerUsuarios);
