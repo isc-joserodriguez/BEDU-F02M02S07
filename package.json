@@ -1,0 +1,33 @@
+{
+  "name": "BEDU_F02M02S07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.19",
+    "mongoose-unique-validator": "^2.0.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node ./bin/app.js",
+    "dev": "nodemon ./bin/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanrodriguezhe/BEDU_F02M02S07.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joanrodriguezhe/BEDU_F02M02S07/issues"
+  },
+  "homepage": "https://github.com/joanrodriguezhe/BEDU_F02M02S07#readme"
+}
